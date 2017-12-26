@@ -26,4 +26,13 @@ for i in range(size_of_list):
 print("LIST",list)
 
 
+#inpu 2D array
+n = int(input()) #number of rows of the array
+a = [] #list
+for i in range(n):
+    row = input().split()
+    for i in range(len(row)):
+        row[i] = int(row[i])
+    a.append(row)
+
 
